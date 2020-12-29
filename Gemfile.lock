@@ -1,14 +1,16 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    crack (0.1.8)
     curb (0.7.12)
     eventmachine (0.12.10)
-    httparty (0.7.4)
-      crack (= 0.1.8)
+    httparty (0.10.0)
+      multi_json (~> 1.0)
+      multi_xml
     httpclient (2.1.6.1)
     httprb (0.1.5)
     mime-types (1.16)
+    multi_json (1.15.0)
+    multi_xml (0.6.0)
     patron (0.4.11)
     rest-client (1.6.1)
       mime-types (>= 1.16)
